@@ -14,6 +14,6 @@ RUN pip3 install -U pip
 COPY . .
 
 #Starting Bot
-CMD ["git", "clone", "https://github.com/shootinstar000/spotidl"]
-CMD ["cd", "spotidl"]
-CMD ["bash", "start.sh" "] 
+#CMD ["git", "clone", "https://github.com/shootinstar000/spotidl"]
+#CMD ["cd", "spotidl"]
+CMD ["bash", "start.sh"] 
